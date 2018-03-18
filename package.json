@@ -1,0 +1,25 @@
+{
+  "name": "SendMail",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.3.0-alpha.1",
+    "react-native": "0.54.2",
+    "react-native-device-info": "git+http://zoteri.f3322.net:60080/yunpan/react-native-device-info.git#0.12.1-feiyan",
+    "react-native-umeng-push": "git+http://zoteri.f3322.net:60080/yunpan/react-native-umeng-push.git#396e9a7d14189921872dda630928dea757932e5d",
+    "react-native-splash-screen": "^3.0.6"
+  },
+  "devDependencies": {
+    "babel-jest": "23.0.0-alpha.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
